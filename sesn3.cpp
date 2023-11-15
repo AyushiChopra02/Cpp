@@ -1,6 +1,7 @@
 //Given two sorted arrays arr and brr and a number x, find the pair whose sum is closest to x and the pair has an element from each array. In the case of multiple closest pairs return any one of them.
  //Can return the two numbers in any manner. The driver code takes care of the printing of the closest difference//
- 
+ #include<iostream>
+ using namespace std;
  void printClosest(int ar1[] ,int ar2[] , int m , int n , int x , int r){
     int diff = __INT_MAX__;
     int res_I , res_r ;
@@ -25,6 +26,6 @@ cout<<"the closest pair is ["<<ar1[res_I]<<" , " <<ar2[res_r]<<"]\n";
     int m = sizeof(ar1)/sizeof(ar1[0]);
     int m = sizeof(ar2)/sizeof(ar2[0]);
     int x = 38 ;
-    printClosest(ar1 , ar2 , m ,n , x);
+    
     return 0 ;
  }
