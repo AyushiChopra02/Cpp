@@ -15,6 +15,7 @@
     for(int i = 0 ; i<n ; i++){
         cout << third[i] << " " ;
     }
+    //pahle postn one aayegi baki sb 0
     int fifth[10] = {1};
      n=10 ;
     cout << "print" <<endl ;
