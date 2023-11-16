@@ -14,7 +14,7 @@ void printArray(int arr[] , int n){
     for(int i=0 ; i<n ; i++){
         cout << arr[i] << " ";
     }
-    cout << endl  ;
+    cout << endl ;
 }
 int main(){
     int arr[6] = {1,4,0,5,-2 , 15};
