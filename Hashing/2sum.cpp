@@ -14,7 +14,7 @@ class Solution{
             if(indexMap.find(remaining) != indexMap.end()){
                 return {indexMap[remaining], i};
             }
-            indexMap[nums[i]] = i;
+            indexMap[nums[i]] = i ;
 
         }
         return{-1 , -1};
