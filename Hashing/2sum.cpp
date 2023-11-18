@@ -12,7 +12,7 @@ class Solution{
             //a=t-b
             int remaining = target - nums[i];
             if(indexMap.find(remaining) != indexMap.end()){
-                return {indexMap[remaining], i};
+                return {indexMap[remaining], i} ;
             }
             indexMap[nums[i]] = i ;
 
