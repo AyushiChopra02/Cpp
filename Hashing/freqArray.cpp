@@ -15,6 +15,7 @@ void solve(){
     for(int i=1 ; i<=n ; i++){
         cin >> arr[i];
     }
+    //frq k lie alg loop chlaya h
     vector<int> frequency(n+1 , 0);
     for(int i=1 ; i<=n ; i++){
         frequency[arr[i]]++ ;
