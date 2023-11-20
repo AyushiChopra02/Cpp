@@ -11,7 +11,7 @@ void solve(){
 //Declaration : 	
 //vector< object_type > vector_variable_name;
 
-    vector<int> arr(n+1);
+    vector<int> arr(n+1) ;
     for(int i=1 ; i<=n ; i++){
         cin >> arr[i];
     }
