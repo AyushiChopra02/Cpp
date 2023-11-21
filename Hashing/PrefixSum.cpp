@@ -8,7 +8,7 @@ void solve(){
     int n,q ;
     cin >> n;
     vector<int> arr(n+1);
-    for(int i =1 ; i<=n ; i++){
+    for(int i =1 ; i<=n  ; i++){
         cin >> arr[i];
 
     }
