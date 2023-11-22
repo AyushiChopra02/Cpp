@@ -16,7 +16,7 @@ class Solution {
         }
         //agr unique chrctr h is loop m ayega aur return krega index uska vrna -1 ans
         for(int i= 0 ; i < s.size(); i++){
-            if(frequency[s[i]] == 1) return i ;
+            if(frequency[s[i]] == 1) return i ; 
         }
         return -1 ;
     }
