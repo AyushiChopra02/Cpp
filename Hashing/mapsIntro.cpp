@@ -20,7 +20,7 @@ int main(){
     //3
     m["mera"] =  1 ;
 
-    m["mera"] = 2 ;  
+    m["mera"] = 2 ;   
     // ab jo m hai usme 1 ki jgah 2 aajega
 
 //search
