@@ -10,7 +10,7 @@ while (I<m && r>=0){
 if(abs(ar1[I] + ar2[r]-x)< diff)
 {
     res_I =I ;
-    res_r = r ;
+    res_r = r  ;
     diff = abs(ar1[1] + ar2[r] -x);
 }
 if (ar1[I] + ar2[r] > x)
