@@ -14,6 +14,6 @@ class Solution{
             ans += frequency[a];
             frequency[b]++;
         }
-        return ans ;
+        return ans  ;
     }
 };
