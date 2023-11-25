@@ -6,7 +6,7 @@
             return 1 ;
         }
     }
-    return 0 ;
+    return 0  ;
  }
  int main(){
     int arr[10]={5,10,-2,22,7,-2,0,5,22,1};
