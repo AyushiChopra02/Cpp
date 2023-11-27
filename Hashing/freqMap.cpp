@@ -16,7 +16,7 @@ void solve(){
         frequencyMap[arr[i]]++ ;
     }
     for(int i=1 ; i<=q ; i++){
-        int x ;
+        int x  ;
         cin >> x ;
         cout << frequencyMap[x] << "\n";
     }
