@@ -4,7 +4,7 @@ using namespace std;
 
 bool isPossible(vector<int> &stalls, int k, int mid) {
     int CowCount = 1;
-    int lastPos = stalls[0];
+    int lastPos = stalls[0] ;
 
     for (int i = 0; i < stalls.size(); i++) {
         //if vali ka mtlb ki agr cows 4 k dist pr ldri h to vo 3 k distnc pr to ldegi e 2 k b to usay bdha ya eql hoga
