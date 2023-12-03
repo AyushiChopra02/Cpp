@@ -2,7 +2,7 @@
 //space: O(N)
 #include<iostream>
 #include <vector>
-using namespace std ;
+using namespace std  ;
 void solve(){
     int n ,q ;
     cin >> n >>q ;
