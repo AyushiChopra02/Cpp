@@ -9,7 +9,7 @@
 
         }
     }
-    return min;
+    return min ;
 
  }
  int main(){
