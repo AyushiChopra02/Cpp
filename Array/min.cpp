@@ -2,7 +2,7 @@
 #include <climits>
  using namespace std;
  int getMin(int num[] , int n){
-    int min = INT_MAX;
+    int min = INT_MAX ;
     for(int i=0 ; i<n ; i++){
         if(num[i]<min){
             min= num[i];
