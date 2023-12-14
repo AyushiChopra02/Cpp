@@ -23,7 +23,7 @@ void solve(){
     for(int i=1 ; i<=q ; i++){
         int x ;
         cin >> x;
-        cout << frequency[x] << "\n" ;
+        cout << frequency[x] << "\n"  ;
     }
     
 }
