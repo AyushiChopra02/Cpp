@@ -12,7 +12,7 @@ void solve(){
 //vector< object_type > vector_variable_name;
 
     vector<int> arr(n+1) ;
-    for(int i=1 ; i<=n ; i++){
+    for(int i=1 ; i<=n ; i++){ 
         cin >> arr[i];
     }
     //frq k lie alg loop chlaya h
@@ -20,7 +20,7 @@ void solve(){
     for(int i=1 ; i<=n ; i++){
         frequency[arr[i]]++ ;
     }
-    for(int i=1 ; i<=q ;i++){
+    for(int i=1 ; i<=q ; i++){
         int x ;
         cin >> x;
         cout << frequency[x] << "\n" ;
