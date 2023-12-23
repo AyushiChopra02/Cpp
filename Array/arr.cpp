@@ -4,7 +4,7 @@
 
  }
  int main(){
-    int number[15];
+    int number[15] ;
     cout << "value at 14 index" << number[14] << endl ;
     cout << endl << "evrythng is fine" << endl ;
 
